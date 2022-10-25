@@ -9,9 +9,8 @@
 body {
 	font-family: Roboto, sans-serif;
 	letter-spacing: 0.03em;
-	background-color: var(--primary-background-color);
-	color: var(--primary-white);
-	
+	background-color: var(--primary-white);
+	color: var(--primary-text-color);
 }
 
 /* * |||| effects |||||  */
