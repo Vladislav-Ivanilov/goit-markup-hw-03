@@ -40,7 +40,6 @@ body {
 
 
 .topic {
-	margin: 0;
 	display: none;
 }
 
@@ -263,6 +262,7 @@ body {
 }
 
 .team-section .ouer-team .team {
+	text-align: center;
 	width: calc((100% - 90px) / 4);
 	margin-right: 30px;
 	padding-bottom: 30px;
