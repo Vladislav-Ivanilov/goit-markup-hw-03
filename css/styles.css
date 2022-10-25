@@ -9,8 +9,8 @@
 body {
 	font-family: Roboto, sans-serif;
 	letter-spacing: 0.03em;
-	background-color: #F5F5F5;
-	color: var(--primary-text-color);
+	background-color: var(--primary-background-color);
+	color: var(--primary-white);
 	
 }
 
@@ -23,6 +23,7 @@ body {
 	font-style: normal;
 	margin: 0;
 	padding: 0;
+	outline-color: var(--accent-color);
 }
 
 .conteiner {
@@ -159,7 +160,7 @@ body {
 }
 
 .heroe .block .title {
-	margin: 0;
+	margin: auto;
 	width: 696px;
 
 	text-transform: uppercase;
@@ -190,6 +191,12 @@ body {
 	line-height: 1.87;
 	letter-spacing: 0.06em;
 }
+.heroe .block .button:hover,
+.heroe .block .button:focus {
+	background-color: #188CE8;
+}
+
+
 
 /* * |||||| advantages |||||  */
 
@@ -262,10 +269,14 @@ body {
 }
 
 .team-section .ouer-team .team {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+
+	background-color: var(--primary-white);
+
 	text-align: center;
 	width: calc((100% - 90px) / 4);
 	margin-right: 30px;
-	padding-bottom: 30px;
 }
 
 .team-section .ouer-team .team:last-child {
@@ -284,7 +295,7 @@ body {
 }
 
 .team-section .jobe-title {
-	margin: 0;
+	margin: 0 0 30px 0;
 
 	color: var(--title-text-color);
 
@@ -372,6 +383,7 @@ body {
 .nav-filter .button:focus {
 	background-color: var(--accent-color);
 	color: var(--primary-white);
+	
 }
 
 .portfilio-block .item {
