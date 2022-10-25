@@ -3,7 +3,6 @@
 	--title-text-color: #757575;
 	--accent-color:#2196F3;
 	--primary-white:#FFFFFF;
-
 }
 
 body {
@@ -195,8 +194,6 @@ body {
 	background-color: #188CE8;
 }
 
-
-
 /* * |||||| advantages |||||  */
 
 .advantages-list {
@@ -255,7 +252,6 @@ body {
 .title-list .item:last-child{
 	margin: 0;
 }
-
 
 /* * |||||| team |||||||*/
 
@@ -382,7 +378,6 @@ body {
 .nav-filter .button:focus {
 	background-color: var(--accent-color);
 	color: var(--primary-white);
-	
 }
 
 .portfilio-block .item {
@@ -401,7 +396,6 @@ body {
 
 	background-color: #FFFFFF;
 }
-
 
 .portfilio-block .block:nth-child(3n) {
 	margin-right: 0;
